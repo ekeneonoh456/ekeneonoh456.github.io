@@ -6,7 +6,7 @@ This project consisted of creating a portfolio website from scratch using HTML f
 
 ## Report
 
-[PDF Document](https://drive.google.com/file/d/1ARw7WDyAdMIoosR5-khplVgQph3gzxvp/view?usp=sharing)
+[PDF Document](https://drive.google.com/file/d/1QcG4Gr4HnAH_90LEqNNami8RH2iDct5X/view?usp=sharing)
 
 
 ## Authors
