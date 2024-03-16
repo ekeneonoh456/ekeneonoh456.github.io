@@ -1,238 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-R4PN5FYQJZ"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4PN5FYQJZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+			gtag("config", "G-R4PN5FYQJZ");
+		</script>
 
-  gtag('config', 'G-R4PN5FYQJZ');
-</script>
-        
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ekene Onoh</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <script src="https://kit.fontawesome.com/5cce05fac3.js" crossorigin="anonymous"></script>
-    </head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ekene Onoh</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+		<script
+			src="https://kit.fontawesome.com/5cce05fac3.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-    <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <img src="images/blank.png" class="logo">
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
-                <div class="header-text">
-                    <p>Information & Cybersecurity Analyst</p>
-                    <h1>Ekene D. Onoh</h1>
-                </div>
-            </div>
-        </div>
-<!-- about -->
-        <div id="about">
-            <div class="container">
-                <div class="about">
-                    <div class="about-col">
-                        <h1 class="sub-title">Professional Statement</h1>
-                        <p>As organizations around the globe become <br>
-                            more dependent on technology, the need for <br>
-                            technically skilled individuals who can aid these <br>
-                            companies becomes more blatant. While I <br>
-                            possess programming, networking, analytical, <br>
-                            and problem-solving skills along with experience <br>
-                            in cybersecurity and software engineering, my <br>
-                            ability to lead, remain optimistic, learn fast, and <br>
-                            cooperate with others allows me to be a morale <br>
-                            boost and a solid contributor to any team in the <br>
-                            IT industry.</p>
-                        <p><br><br><br><br><br><br></p>
-                        <div class="tab-titles" id="experience_section">
-                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('education')">Education & Certifications</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="experience">
-                            <ul>
-                                <li><span>Cybersecurity Researcher - <br>
-                                    Apollo Information Systems</span><br>
-                                    Worked with a team at AIS where I was tasked <br>
-                                    with researching modern hacking tools, <br>
-                                    collecting data about companies that have been <br>
-                                    attacked, and assisting companies with <br>
-                                    improving web security.</li>
+	<body>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<img src="images/blank.png" class="logo" />
+					<ul id="sidemenu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+					</ul>
+					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="header-text">
+					<p>Information & Cybersecurity Analyst</p>
+					<h1>Ekene D. Onoh</h1>
+				</div>
+			</div>
+		</div>
+		<!-- about -->
+		<div id="about">
+			<div class="container">
+				<div class="about">
+					<div class="about-col">
+						<h1 class="sub-title">Professional Statement</h1>
+						<p>
+							As organizations around the globe become <br />
+							more dependent on technology, the need for <br />
+							technically skilled individuals who can aid these <br />
+							companies becomes more blatant. While I <br />
+							possess programming, networking, analytical, <br />
+							and problem-solving skills along with experience <br />
+							in cybersecurity and software engineering, my <br />
+							ability to lead, remain optimistic, learn fast, and <br />
+							cooperate with others allows me to be a morale <br />
+							boost and a solid contributor to any team in the <br />
+							IT industry.
+						</p>
+						<p><br /><br /><br /><br /><br /><br /></p>
+						<div class="tab-titles" id="experience_section">
+							<p class="tab-links active-link" onclick="opentab('experience')">
+								Experience
+							</p>
+							<p class="tab-links" onclick="opentab('skills')">Skills</p>
+							<p class="tab-links" onclick="opentab('education')">
+								Education & Certifications
+							</p>
+						</div>
+						<div class="tab-contents active-tab" id="experience">
+							<ul>
+								<li>
+									<span
+										>Cybersecurity Researcher - <br />
+										Apollo Information Systems</span
+									><br />
+									Worked with a team at AIS where I was tasked <br />
+									with researching modern hacking tools, <br />
+									collecting data about companies that have been <br />
+									attacked, and assisting companies with <br />
+									improving web security.
+								</li>
 
-                                <li><span>Software Engineer - <br>
-                                    Tata Consultancy Services</span><br>
-                                    Worked with a team at TCS that developed a full <br>
-                                    stack web application that was a live chat <br>
-                                    program for customer support. I was specifically <br>
-                                    tasked with making the messaging component <br>
-                                    functional within the application.</li>
-                                
-                                    <li><span>Hackathons & Competitions</span><br>
-                                        NCAE Cyber Games<br>
-                                        NCCDC Hivestorm <br>
-                                        National Cyber League (NCL) <br>
-                                        AWS HBCU Business Case Competition <br>
-                                        MorganHacks <br>
-                                        UMD BitCamp </li>
+								<li>
+									<span
+										>Software Engineer - <br />
+										Tata Consultancy Services</span
+									><br />
+									Worked with a team at TCS that developed a full <br />
+									stack web application that was a live chat <br />
+									program for customer support. I was specifically <br />
+									tasked with making the messaging component <br />
+									functional within the application.
+								</li>
 
-                                    <li><span>Teacher Assistant & Mathematics Tutor</span><br>
-                                        Worked as a math tutor and teacher assistant <br>
-                                        assisting and teaching students in a wide range <br>
-                                        of college math courses.</li>
+								<li>
+									<span>Hackathons & Competitions</span><br />
+									NCAE Cyber Games<br />
+									NCCDC Hivestorm <br />
+									National Cyber League (NCL) <br />
+									AWS HBCU Business Case Competition <br />
+									MorganHacks <br />
+									UMD BitCamp
+								</li>
 
-                                    <li><span>Treasurer</span><br>
-                                        Managing the budgets and financial records for <br>
-                                        multiple organizations. BSU Disciples is a Bible <br>
-                                        study/support group, BSU Circle K International <br>
-                                        is a community service organization, and BSU <br>
-                                        Honors Student Organization is the school’s <br>
-                                        Honors Program.</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="skills">
-                            <ul>
-                                <li><span>Security</span><br>
-                                    SIEM Tools <br>
-                                    Splunk <br>
-                                    Risk Assessment <br>
-                                    Threat Detection <br>
-                                    Security Intelligence <br>
-                                    Security Research <br>
-                                    Threat & Vulnerability Management <br>
-                                    Network Security <br>
-                                    Web Security <br>
-                                    Shodan
-                                </li>
+								<li>
+									<span>Teacher Assistant & Mathematics Tutor</span><br />
+									Worked as a math tutor and teacher assistant <br />
+									assisting and teaching students in a wide range <br />
+									of college math courses.
+								</li>
 
-                                <li><span>Command Line</span><br>
-                                    Linux <br>
-                                    Unix <br>
-                                    Powershell <br>
-                                    SSH
-                                </li>
-                                
-                                <li><span>Programming Languages</span><br>
-                                    Python <br>
-                                    JavaScript <br>
-                                    Java <br>
-                                    C <br>
-                                    C++ <br>
-                                    VHDL
-                                </li>
+								<li>
+									<span>Treasurer</span><br />
+									Managing the budgets and financial records for <br />
+									multiple organizations. BSU Disciples is a Bible <br />
+									study/support group, BSU Circle K International <br />
+									is a community service organization, and BSU <br />
+									Honors Student Organization is the school’s <br />
+									Honors Program.
+								</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="skills">
+							<ul>
+								<li>
+									<span>Security</span><br />
+									SIEM Tools <br />
+									Splunk <br />
+									Risk Assessment <br />
+									Threat Detection <br />
+									Security Intelligence <br />
+									Security Research <br />
+									Threat & Vulnerability Management <br />
+									Network Security <br />
+									Web Security <br />
+									Shodan
+								</li>
 
-                                <li><span>Cloud</span><br>
-                                    AWS <br>
-                                    Cloud Networking
-                                </li>
+								<li>
+									<span>Command Line</span><br />
+									Linux <br />
+									Unix <br />
+									Powershell <br />
+									SSH
+								</li>
 
-                                <li><span>Troubleshooting</span><br>
-                                    Networks <br>
-                                    Operating Systems <br>
-                                    Windows <br>
-                                    macOS <br>
-                                    Linux <br>
-                                    Microsoft Applications
-                                </li>
+								<li>
+									<span>Programming Languages</span><br />
+									Python <br />
+									JavaScript <br />
+									Java <br />
+									C <br />
+									C++ <br />
+									VHDL
+								</li>
 
-                                <li><span>Networking</span><br>
-                                    System Configuration <br>
-                                    Software Defined Networking <br>
-                                    Local Area Network (LAN) <br>
-                                    Switches <br>
-                                    Routers <br>
-                                    Network Management Systems (NMS) <br>
-                                    Domain Name System (DNS) <br>
-                                    Dynamic Host Configuration Protocol (DHCP) <br>
-                                    TCP & UDP <br>
-                                    VPN
-                                </li>
+								<li>
+									<span>Cloud</span><br />
+									AWS <br />
+									Cloud Networking
+								</li>
 
-                                <li><span>Web & App Development</span><br>
-                                    React Native <br>
-                                    React.js <br>
-                                    Spring Boot <br>
-                                    HTML <br>
-                                    CSS <br>
-                                    Postman <br>
-                                    RabbitMQ <br>
-                                    Maven <br>
-                                    Angular <br>
-                                    PHP <br>
-                                    Git & GitHub <br>
-                                    Google Apps Script
-                                </li>
+								<li>
+									<span>Troubleshooting</span><br />
+									Networks <br />
+									Operating Systems <br />
+									Windows <br />
+									macOS <br />
+									Linux <br />
+									Microsoft Applications
+								</li>
 
-                                <li><span>Databases</span><br>
-                                    MySQL <br>
-                                    PostgreSQL <br>
-                                    MariaDB <br>
-                                    Oracle <br>
-                                    CockroachDB
-                                </li>
+								<li>
+									<span>Networking</span><br />
+									Active Directory <br />
+									Virtual Machines <br />
+									System Configuration <br />
+									Software Defined Networking <br />
+									Local Area Network (LAN) <br />
+									Switches <br />
+									Routers <br />
+									Network Management Systems (NMS) <br />
+									Domain Name System (DNS) <br />
+									Dynamic Host Configuration Protocol (DHCP) <br />
+									TCP & UDP <br />
+									VPN
+								</li>
 
-                                <li><span>Soft Skills</span><br>
-                                    Teamwork <br>
-                                    Optimistic <br>
-                                    Tutoring <br>
-                                    Analytical <br>
-                                    Problem Solving <br>
-                                    Fast Learner <br>
-                                    Open-minded <br>
-                                    Customer Service <br>
-                                    Customer Support <br>
-                                    Technical Support
-                                </li>
+								<li>
+									<span>Web & App Development</span><br />
+									React Native <br />
+									React.js <br />
+									Spring Boot <br />
+									HTML <br />
+									CSS <br />
+									Postman <br />
+									RabbitMQ <br />
+									Maven <br />
+									Angular <br />
+									PHP <br />
+									Git & GitHub <br />
+									Google Apps Script
+								</li>
 
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>Bachelor of Science - <br>
-                                    BS, Computer Science</span><br>Bowie State University</li>
-                                <li><span>CompTIA Security+ ce</span><br>ID: VNKGMQEV17K6V5GZ</li>
-                                <li><span>CompTIA Network+ ce</span><br>ID: CD4CZS0YN2RE1Y35</li>
-                                <li><span>Google Cybersecurity</span><br>ID: 8WTT5BE69DNC</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+								<li>
+									<span>Databases</span><br />
+									MySQL <br />
+									PostgreSQL <br />
+									MariaDB <br />
+									Oracle <br />
+									CockroachDB
+								</li>
 
-<!-- services -->
+								<li>
+									<span>Soft Skills</span><br />
+									Teamwork <br />
+									Optimistic <br />
+									Tutoring <br />
+									Analytical <br />
+									Problem Solving <br />
+									Fast Learner <br />
+									Open-minded <br />
+									Customer Service <br />
+									Customer Support <br />
+									Technical Support
+								</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li>
+									<span
+										>Bachelor of Science - <br />
+										BS, Computer Science</span
+									><br />Bowie State University
+								</li>
+								<li>
+									<span>CompTIA Security+ ce</span><br />ID: VNKGMQEV17K6V5GZ
+								</li>
+								<li>
+									<span>CompTIA Network+ ce</span><br />ID: CD4CZS0YN2RE1Y35
+								</li>
+								<li><span>Google Cybersecurity</span><br />ID: 8WTT5BE69DNC</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!-- projects -->
-<div id="projects">
-    <div class="container">
-        <h1 class="sub-title">Projects</h1>
-        <div class="work-list">
+		<!-- services -->
 
-            <div class="work">
-                <img src="images/waffle.jpg">
-                <div class="layer">
-                    <h3>Web Development</h3>
-                    <p>Building this site using HTML, CSS, and JavaScript</p>
-                    <a href="https://github.com/ekeneonoh456/ekeneonoh456.github.io"><img src="images/white_external_link.png"></a>
-                </div>
-            </div>
+		<!-- projects -->
+		<div id="projects">
+			<div class="container">
+				<h1 class="sub-title">Projects</h1>
+				<div class="work-list">
+					<div class="work">
+						<img src="images/waffle.jpg" />
+						<div class="layer">
+							<h3>Web Development</h3>
+							<p>Building this site using HTML, CSS, and JavaScript</p>
+							<a href="https://github.com/ekeneonoh456/ekeneonoh456.github.io"
+								><img src="images/white_external_link.png"
+							/></a>
+						</div>
+					</div>
 
-        <!--
+					<div class="work">
+						<img src="images/active directory logo.png" />
+						<div class="layer">
+							<h3>Network Admin</h3>
+							<p>
+								Created an Active Directory Domain using Windows Server 2019 and
+								Oracle VirtualBox
+							</p>
+							<a href="https://github.com/ekeneonoh456/Active-Directory-Domain"
+								><img src="images/white_external_link.png"
+							/></a>
+						</div>
+					</div>
+
+					<!--
             <div class="work">
                 <img src="images/profile1.jpg">
                 <div class="layer">
@@ -251,92 +311,106 @@
                     <a href="#"><img src="images/white_external_link.png"></a>
                 </div>
             </div>
-        -->
+        --></div>
+				<a href="https://github.com/ekeneonoh456" class="btn">See more</a>
+			</div>
+		</div>
 
-        </div>
-        <a href="https://github.com/ekeneonoh456" class="btn">See more</a>
-    </div>
-</div>
+		<!-- contact -->
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h1 class="sub-title">Contact Me</h1>
+						<p>
+							<i class="fa-regular fa-envelope"></i> ekene.onoh123@gmail.com
+						</p>
+						<p><i class="fa-solid fa-phone"></i> (909) 301-1894</p>
+						<div class="social-icons">
+							<a href="https://www.linkedin.com/in/ekene-onoh-241863223/"
+								><i class="fa-brands fa-linkedin"></i
+							></a>
+							<a href="https://github.com/ekeneonoh456"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</div>
+						<a href="images/Ekene's Resume.pdf" download class="btn btn2"
+							>Resume</a
+						>
+					</div>
+					<div class="contact-right">
+						<form name="submit-to-google-sheet">
+							<input type="text" name="Name" placeholder="Your Name" required />
+							<input
+								type="email"
+								name="Email"
+								placeholder="Your Email"
+								required
+							/>
+							<textarea
+								name="Message"
+								rows="6"
+								placeholder="Your Message"
+							></textarea>
+							<button type="submit" class="btn btn2">Submit</button>
+						</form>
+						<span id="msg"></span>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Copyright © Ekene Onoh 2024</p>
+			</div>
+		</div>
 
-<!-- contact -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-regular fa-envelope"></i> ekene.onoh123@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> (909) 301-1894</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/ekene-onoh-241863223/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/ekeneonoh456"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <a href="images/Ekene's Resume.pdf" download class="btn btn2">Resume</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+		<script>
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-contents");
 
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright © Ekene Onoh 2024</p>
-    </div>
-</div>
+			function opentab(tabname) {
+				for (tablink of tablinks) {
+					tablink.classList.remove("active-link");
+				}
 
-        <script>
-            var tablinks = document.getElementsByClassName("tab-links");
-            var tabcontents = document.getElementsByClassName("tab-contents");
+				for (tabcontent of tabcontents) {
+					tabcontent.classList.remove("active-tab");
+				}
+				event.currentTarget.classList.add("active-link");
+				document.getElementById(tabname).classList.add("active-tab");
+			}
+		</script>
 
-            function opentab(tabname){
-                for(tablink of tablinks){
-                    tablink.classList.remove("active-link");
-                }
+		<script>
+			var sidemenu = document.getElementById("sidemenu");
 
-                for(tabcontent of tabcontents){
-                    tabcontent.classList.remove("active-tab");
-                }
-                event.currentTarget.classList.add("active-link");
-                document.getElementById(tabname).classList.add("active-tab");
-            }
+			function openmenu() {
+				sidemenu.style.right = "0";
+			}
 
-        </script>
+			function closemenu() {
+				sidemenu.style.right = "-200px";
+			}
+		</script>
 
-        <script>
-            var sidemenu = document.getElementById("sidemenu");
+		<script>
+			const scriptURL =
+				"https://script.google.com/macros/s/AKfycbxC0_huiaQKqzx7l3zfFRntA0lqdW_WI0cvPq6-G6IwTjqwjFpKEj-ahJ24zqZQKUnr/exec";
+			const form = document.forms["submit-to-google-sheet"];
+			const msg = document.getElementById("msg");
 
-            function openmenu(){
-                sidemenu.style.right = "0";
-            }
+			form.addEventListener("submit", (e) => {
+				e.preventDefault();
+				fetch(scriptURL, { method: "POST", body: new FormData(form) })
+					.then((response) => {
+						msg.innerHTML = "Message sent!";
+						setTimeout(function () {
+							msg.innerHTML = "";
+						}, 15000);
 
-            function closemenu(){
-                sidemenu.style.right = "-200px";
-            }
-        </script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxC0_huiaQKqzx7l3zfFRntA0lqdW_WI0cvPq6-G6IwTjqwjFpKEj-ahJ24zqZQKUnr/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Message sent!" 
-            setTimeout(function(){
-                msg.innerHTML=""
-        }, 15000)
-        
-        form.reset()
-    })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    </body>
+						form.reset();
+					})
+					.catch((error) => console.error("Error!", error.message));
+			});
+		</script>
+	</body>
 </html>
